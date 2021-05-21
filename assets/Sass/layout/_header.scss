@@ -1,1 +1,20 @@
-$bg-blue:red;
+header  {
+    background-color:  $black-eeriety;
+    color: $white;
+    text-decoration: none;
+    padding: 0 8rem;
+}
+
+nav  {
+    img {
+        height: 46px;
+        width: 79px;
+    }
+    a   {
+        color: $white !important;
+        font-family: $roboto;
+        font-weight: $regular;
+        font-size: $medium;
+    }
+}
+

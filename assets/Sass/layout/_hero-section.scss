@@ -1,0 +1,15 @@
+.hero-section {
+    text-align: center;
+    background-image: url('/assets/img/post-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 12rem 3.125rem;
+    h1{
+      font-family: $playfair;
+      font-weight: $black-italic;
+      font-size:$xx-large;   
+    }
+  }
+
