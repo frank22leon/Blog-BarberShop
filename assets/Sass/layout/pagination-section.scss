@@ -1,15 +1,21 @@
 .pagination-section {
     background-color: $platinum;
-    padding: 3rem; 
+    padding: 3rem;
+    :hover{
+        color: $ruddy-pink !important;
+    } 
+     
     &__buttons{
         color: $black-eeriety !important;
         font-family: $roboto;
         font-weight: $regular;
         font-size: $medium;
-        text-decoration-style: none;     
+        text-decoration-style: none;
+        
+          
         &--border1  {
             border-bottom-left-radius: 30px !important;
-            border-top-left-radius: 30px !important;
+            border-top-left-radius: 30px !important;   
         }  
         &--border2  {
             border-bottom-right-radius: 30px !important;

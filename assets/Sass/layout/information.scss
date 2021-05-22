@@ -28,7 +28,9 @@
         font-family: $roboto;
         font-weight: $light;
         font-size: $large;
-
+        &:hover{
+            color: $ruddy-pink !important;
+        }
     }
     &__parrafo{
         padding-top: 5%;

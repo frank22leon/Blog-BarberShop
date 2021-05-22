@@ -2,7 +2,7 @@
     background-color:  $black-eeriety;
     color: $white;
     text-decoration: none;
-    padding: 0 2rem;
+    padding: 0 8vw;
     &__imagen   {
         height: 46px;
         width: 79px;
@@ -12,6 +12,10 @@
         font-family: $roboto;
         font-weight: $regular;
         font-size: $medium;
+        &:hover{
+            color: $ruddy-pink !important;
+        }
     }
+
 }
 
