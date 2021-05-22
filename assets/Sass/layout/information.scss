@@ -1,9 +1,41 @@
-.information {
-    &__linea{
-    border-top: 1px solid $platinum;
+.information__linea{
+    border-top: 2px solid $platinum;
     height: 2px;
     max-width: 100%;
     padding: 0;
     margin: 20px auto 0 auto;
+}
+
+.information {
+    &__content{
+        padding: 4rem;
+    }
+    &__imagen{
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    &__titulo{
+        padding-top: 18%;
+        color: $black-eeriety;
+        font-family: $playfair;
+        font-weight: bold;
+        font-size:  $x-x-large;
+    }
+    &__link{
+        text-decoration-style: none;
+        color: $ruddy-pink;
+        font-family: $roboto;
+        font-weight: $light;
+        font-size: $large;
+
+    }
+    &__parrafo{
+        padding-top: 5%;
+        color:  $black-raisin;
+        font-family: $roboto;
+        font-weight: $regular;
+        font-size: $medium;
     }
 }
+

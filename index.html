@@ -22,26 +22,26 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#"><img src="/assets/img/logo.png" alt="logo"></a>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark header__navbar">
+            <a class="navbar-brand header__imagen" href="#"><img src="/assets/img/logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto ">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link header__link" href="#">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link header__link" href="#">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Horas</a>
+                        <a class="nav-link header__link" href="#">Horas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Contacto</a>
+                        <a class="nav-link header__link">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -86,21 +86,52 @@
             itaque odit, quidem voluptate nulla beatae sed sequi maxime officia voluptas dolor consectetur delectus
             unde, debitis iusto.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit adipisci
             officiis fugit, expedita itaque odit, quidem voluptate nulla beatae sed sequi maxime officia voluptas dolor
-            consectetur delectus unde, debitis iusto.main-section__botones--borde
+            consectetur delectus unde, debitis iusto.
         </p>
         <div class="main-section__botones">
-                <button type="button" class="btn btn-secondary mr-2 main-section__botones--border">Compartir</button>
-                <button type="button" class="btn btn-secondary main-section__botones--border">Comentar en Twitter</button>
+            <button type="button" class="btn btn-secondary mr-2 main-section__botones--border">Compartir</button>
+            <button type="button" class="btn btn-secondary main-section__botones--border">Comentar en Twitter</button>
         </div>
     </section>
 
     <section class="information">
         <div class="information__linea"></div>
-
+        <div class="information__content">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <img class="information__imagen" src="/assets/img/naomi-thai.png" alt="naomi-thai">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 text-center">
+                    <h1 class="information__titulo">Naomi Thai</h1>
+                    <a class="information__link" href="#">@Naothaidepelos.com</a>
+                </div>
+                <div class="col-12 col-lg-8 d-none d-sm-none d-lg-block">
+                    <p class="information__parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
+                        eveniet doloribus numquam? Reprehenderit, adipisci sint totam ab explicabo voluptatibus
+                        distinctio eos fugiat, iste mollitia architecto necessitatibus delectus molestias neque minus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate officiis dolorem
+                        praesentium. Inventore adipisci odit saepe eos mollitia dignissimos iste, possimus et, nesciunt
+                        debitis officia eligendi quasi enim quod.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="navigation">
-
+    <section class="pagination-section">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item  "><a
+                        class="page-link pagination-section__buttons pagination-section__buttons--border1"
+                        href="#">Previous</a></li>
+                <li class="page-item "><a class="page-link pagination-section__buttons" href="#">1</a></li>
+                <li class="page-item "><a class="page-link pagination-section__buttons" href="#">2</a></li>
+                <li class="page-item "><a class="page-link pagination-section__buttons" href="#">3</a></li>
+                <li class="page-item "><a
+                        class="page-link pagination-section__buttons pagination-section__buttons--border2"
+                        href="#">Next</a></li>
+            </ul>
+        </nav>
     </section>
 
     <footer class="footer">

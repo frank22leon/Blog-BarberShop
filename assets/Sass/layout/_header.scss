@@ -1,16 +1,13 @@
-header  {
+.header  {
     background-color:  $black-eeriety;
     color: $white;
     text-decoration: none;
-    padding: 0 8rem;
-}
-
-nav  {
-    img {
+    padding: 0 2rem;
+    &__imagen   {
         height: 46px;
         width: 79px;
     }
-    a   {
+    &__link {
         color: $white !important;
         font-family: $roboto;
         font-weight: $regular;

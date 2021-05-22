@@ -9957,18 +9957,17 @@ img {
   height: auto;
 }
 
-header {
+.header {
   background-color: #121619;
   color: #FFF;
   text-decoration: none;
-  padding: 0 8rem;
+  padding: 0 2rem;
 }
-
-nav img {
+.header__imagen {
   height: 46px;
   width: 79px;
 }
-nav a {
+.header__link {
   color: #FFF !important;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -9984,12 +9983,13 @@ nav a {
   text-shadow: 0.125em 0.25em 0.125em #707070;
   height: 70vh;
   width: auto;
+  padding-top: 10%;
 }
 .hero-section__titulo {
   font-family: "Playfair Display", serif;
   font-weight: 900 italic;
   font-size: 70px;
-  padding: 10%;
+  padding-bottom: 10%;
 }
 
 .main-section {
@@ -10009,7 +10009,7 @@ nav a {
   line-height: 40px;
 }
 .main-section__botones {
-  padding-top: 2rem;
+  padding-top: 4rem;
   display: inline-block;
 }
 .main-section__botones--border {
@@ -10021,11 +10021,61 @@ nav a {
 }
 
 .information__linea {
-  border-top: 1px solid #E6E7E7;
+  border-top: 2px solid #E6E7E7;
   height: 2px;
   max-width: 100%;
   padding: 0;
   margin: 20px auto 0 auto;
+}
+
+.information__content {
+  padding: 4rem;
+}
+.information__imagen {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.information__titulo {
+  padding-top: 18%;
+  color: #121619;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+.information__link {
+  text-decoration-style: none;
+  color: #D76C69;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.information__parrafo {
+  padding-top: 5%;
+  color: #222323;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.pagination-section {
+  background-color: #E6E7E7;
+  padding: 3rem;
+}
+.pagination-section__buttons {
+  color: #121619 !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration-style: none;
+}
+.pagination-section__buttons--border1 {
+  border-bottom-left-radius: 30px !important;
+  border-top-left-radius: 30px !important;
+}
+.pagination-section__buttons--border2 {
+  border-bottom-right-radius: 30px !important;
+  border-top-right-radius: 30px !important;
 }
 
 .footer {

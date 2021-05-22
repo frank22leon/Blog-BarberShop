@@ -7,12 +7,14 @@
     text-shadow: 0.125em 0.25em 0.125em #707070;
     height:70vh;
     width: auto;
+    padding-top: 10%;
     &__titulo {
       font-family: $playfair;
       font-weight: $black-italic;
-      font-size:$xx-large; 
-      padding: 10%;         
-    }
+      font-size:$xx-large;
+      padding-bottom: 10%; 
+          
+    }    
   }
 
   
