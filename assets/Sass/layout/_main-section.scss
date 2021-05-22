@@ -1,0 +1,27 @@
+.main-section {
+    padding: 5rem;
+    text-align:left;
+    &__titulo{
+        padding-bottom: 2rem;
+        font-family: $playfair;
+        font-weight: $regular;
+        font-size:$large;               
+    }
+    &__parrafo{
+        font-family:$roboto;
+        font-weight: $light;
+        font-size: $medium;
+        line-height: 40px;
+    }
+    &__botones{
+        padding-top: 2rem;
+        display: inline-block; 
+        &--border{
+            border-radius: 30px;
+            padding: 10px 10px;
+            font-family: $roboto; 
+            font-weight: $regular;
+            font-size: $medium;      
+        }    
+    }
+}
